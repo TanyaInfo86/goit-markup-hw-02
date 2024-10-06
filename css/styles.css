@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455; ;
+
+}
+ul { list-style: none;
+
+}
+a {text-decoration: none;
+
+}
+.section-title {
+    font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+
+}
+
+.section-subtitle{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+/* ---------------HEDER----------- */
+.header {
+    width: 1440px;
+    height: 72px;
+}
+.hedear-navigation {
+}
+
+.header-logo-color {
+    color: #2e2f42;
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.header-logo:hover{
+    color: brown;
+}
+.header-menu-list {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+}
+
+    .header-menu-item{}
+.header-contact-list {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.header-menu-item:hover, .header-menu-item:focus{
+    color: brown;
+}
+
+.hero{
+    width: 1440px;
+height: 600px;
+    background-color: #2e2f42;;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.cection-hero-btn {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+
+}
+.cection-hero-btn:hover{
+    color: brown;
+} 
+/* features */
+  .features {
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+
+}
+.features-item-text {
+   
+}
+/*     ------   taste------- */
+.taste {
+}
+.taste-title {
+
+}
+.taste-list {
+}
+.taste-item {
+}
+.taste-item-img {
+}
+.taste-subtitle {
+
+}
+.taste-text {
+
+
+}
+
+.portfol {
+}
+.portfol-title {
+
+}
+.portfol-list {
+}
+.portfol-item {
+}
+.portfol-item-img {
+}
+.portfol-subtitle {
+
+}
+.portfol-text {
+
+}
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.footer-logo span {
+    color: #f4f4fd;
+}
