@@ -41,6 +41,11 @@ color: #4d5ae5;
 
 }
 .header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .header-menu-item:hover,
 .header-menu-item:focus{
@@ -73,11 +78,13 @@ color: #434455;
         color: #fff;
     }
     .cection-hero-btn {
+        background-color: #4D5AE5;
         font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer;
     }
     .cection-hero-btn:hover,
     .cection-hero-btn:focus{
@@ -87,13 +94,9 @@ color: #fff;
             background-color: #F4F4FD;
         }
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
         
+        
+       
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -120,6 +123,7 @@ color: #434455;
         }
       
         .taste {
+            background-color: #F4F4FD
         }
         .taste-title {
             text-transform: capitalize;
@@ -132,9 +136,11 @@ color: #2e2f42;
         }
        
         .taste-list {
-            background-color: #FFFFFF;
+           
+         
         }
         .taste-item {
+            background-color: #FFFFFF; 
         }
         .taste-item-img {
         }
@@ -163,7 +169,7 @@ color: #434455;
             text-transform: capitalize;
             font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
@@ -196,7 +202,7 @@ background-color: #2e2f42;
  font-family: "Raleway", sans-serif;
  font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
